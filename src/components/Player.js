@@ -58,7 +58,7 @@ const Player = ({audioRef, currentSong,setCurrentSong, songs,setSongs, isPlaying
     
     //Add the styles
     const trackAnim = {
-        transform: `translateX(${songInfo.animationPercentage}%)`
+        transform: `translateX(${(songInfo.currentTime/songInfo.duration)*100}%)`
     }
     
     
