@@ -6,29 +6,26 @@
   justify-content: space-between;
 }
 
-.timecontrol {
+.time-control {
   width: 50%;
   display: flex;
-}
+  align-items: center;
+  input {
+    width: 100%;
+    padding: 1rem 0rem;
+  }
 
-.timecontrol input {
-  width: 100%;
-  padding: 1rem 0rem;
+  p {
+    padding: 1rem;
+  }
 }
-
-.timecontrol p {
-  padding: 1rem;
-}
-
-.playcontrol {
+.play-control {
   display: flex;
   width: 30%;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  width: 30%;
-}
-
-.playcontrol svg {
-  cursor: pointer;
+  svg {
+    cursor: pointer;
+  }
 }

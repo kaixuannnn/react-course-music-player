@@ -1,9 +1,8 @@
 import React from 'react';
-import s from '../styles/Song.module.css';
 
 const Song = ({currentSong}) => {
     return(
-        <div className={s.songcontainer}>
+        <div className="song-container">
             <img src={currentSong.cover} alt=""></img>
             <h2>{currentSong.name}</h2>
             <h3>{currentSong.artist}</h3>
